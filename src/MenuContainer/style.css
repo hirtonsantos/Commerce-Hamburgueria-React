@@ -1,0 +1,99 @@
+ 
+.pesquisa {
+    /* position: absolute; */
+    max-width: 768px;
+    min-width: 360px;
+    height: 139px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+}
+
+h1, h3 {
+    margin: 0px;
+    display: contents;
+}
+
+h3 {
+    color: red;
+}
+
+/* p {
+    text-align: center;
+} */
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px;
+
+    position: static;
+    width: 107px;
+    height: 40px;
+    left: 225px;
+    top: 75px;
+
+    background: #27AE60;
+
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 0px 115px; */
+}
+
+
+#button-buscar {
+    position: absolute;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 15px;
+
+    position: absolute;
+    min-width: 325px;
+    max-width: 400px;
+    height: 60px;
+    left: 16px;
+    top: 65px;
+
+    background: #FFFFFF;
+
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+section {
+    width: 335px;
+    margin-left: 25px;
+    overflow: scroll;
+    display: flex;
+}
+
+/* .mae-button {
+    display: flex;
+} */
