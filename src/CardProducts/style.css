@@ -1,5 +1,7 @@
 .carrinho {
     margin: 20px;
+    max-width: 320px;
+    margin-inline: auto;
 }
 
 .header-carrinho {
@@ -71,6 +73,7 @@ span button {
     border: 2px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 8px;
+    width: 160px;
 
     font-weight: 600;
     font-size: 16px;
@@ -129,9 +132,13 @@ span button {
 
 .valor-total{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 40px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
 
     font-weight: 600;
     font-size: 14px;
@@ -166,6 +173,7 @@ span button {
     flex-direction: column;
     margin-top: 10px;
     margin-left: 5px;
+    margin-right: 70px;
 }
 
 
@@ -181,21 +189,37 @@ span button {
         flex-wrap: wrap;
         width: 837px;
     }
+
+    .span-inferior, span, .header-carrinho{
+        max-width: 400px;
+    }
+
     .carrinho{
-        position: absolute;
-        left: 760px;
-        bottom: 100px;
-        width: 420px;    
+        /* position: absolute; */
+        /* left: 760px; */
+        /* bottom: 100px; */
+        width: 500px;
+        margin-left: 50px;
     }
     .pesquisa{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    #button-buscar{
-        margin-left: 240px;
+    /* #button-buscar{
+        margin-left: 210px;
+    } */
+
+    span button {
+        width: 170px;
     }
+
     .barra-de-pesquisa{
         width: 377px;
+    }
+    .mae{
+        width: 100%;
+        DISPLAY: FLEX;
+        FLEX-DIRECTION: row;
     }
 }

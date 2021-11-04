@@ -1,7 +1,8 @@
 import "./style.css"
 import Product from "../Product"
+import CardProducts from "../CardProducts/Index"
 
-function MenuContainer ({products, handleClick, showProducts , setUserinput, userinput}){
+function MenuContainer ({currentSale,setCurrentSale,remove,totalPrice, products, handleClick, showProducts , setUserinput, userinput}){
     return (
         <div>
         <header className="pesquisa">
@@ -19,10 +20,13 @@ function MenuContainer ({products, handleClick, showProducts , setUserinput, use
                 <button onClick={showProducts} id="button-buscar"> Buscar </button>
             </div>
         </header>
-        <section> 
-            {products.map((item, index) => (
-            <Product key={index} showProducts={showProducts}  handleClick={handleClick} id={item.id} name={item.name} price={item.price} category={item.category} img={item.img}/>
-          ))}
+        <section className="mae">  
+            <section> 
+                {products.map((item, index) => (
+                <Product key={index} showProducts={showProducts}  handleClick={handleClick} id={item.id} name={item.name} price={item.price} category={item.category} img={item.img}/>
+            ))}
+            </section>
+            <CardProducts currentSale={currentSale} setCurrentSale={setCurrentSale} remove={remove} totalPrice={totalPrice} />
         </section>
         </div>
     )

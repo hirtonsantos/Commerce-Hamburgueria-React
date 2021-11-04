@@ -33,7 +33,7 @@ h3 {
 
 #button-buscar{
     position: absolute;
-    margin-left: 280px;
+    margin-left: 220px;
 }
 
 button {
@@ -68,13 +68,18 @@ input {
 }
 
 section {
-    width: 335px;
+    /* width: 335px; */
     margin-left: 25px;
     overflow: scroll;
     display: flex;
 }
 
-@media screen and (min-width: 800px) {
+.mae{
+    width: 100%;
+    display: unset;
+}
+
+@media screen and (min-width: 799px) {
     .product-card{
         width: 204px;
     }   
@@ -84,18 +89,22 @@ section {
     section{
         overflow: visible;
         flex-wrap: wrap;
-        width: 837px;
+        width: 690px;
+        margin-left: 80px;
     }
     .carrinho{
-        position: absolute;
-        left: 760px;
-        bottom: 100px;
+        /* position: absolute; */
+        /* left: 760px; */
+        /* bottom: 100px; */
         width: 420px;    
+        margin: 0px;
+        margin-top: 30px;    
     }
     .pesquisa{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
     #button-buscar{
         margin-left: 240px;
@@ -103,4 +112,10 @@ section {
     .barra-de-pesquisa{
         width: 377px;
     }
+    .mae{
+        width: 100%;
+        DISPLAY: FLEX;
+        FLEX-DIRECTION: row;
+    }
 }
+

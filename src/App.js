@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Product from './Product';
+// import Product from './Product';
 import MenuContainer from './MenuContainer';
-import CardProducts from './CardProducts/Index';
+// import CardProducts from './CardProducts/Index';
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     { id: 3, name: 'Big Kenzie', category: 'Sanduíches', price: 18.00, img: 'https://i.ibb.co/FYBKCwn/big-kenzie.png', cont:1 },
     { id: 4, name: 'Fanta Guaraná', category: 'Bebidas', price: 5.00, img: 'https://i.ibb.co/cCjqmPM/fanta-guarana.png', cont:1 },
     { id: 5, name: 'Coca', category: 'Bebidas', price: 4.99, img:'https://i.ibb.co/fxCGP7k/coca-cola.png', cont:1},
-    { id: 6, name: 'McShake Ovomaltine', category: 'Bebidas', price: 4.99, img: 'https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png', cont:1},
+    { id: 6, name: 'McShake...', category: 'Bebidas', price: 4.99, img: 'https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png', cont:1},
   ]);
 
   const [currentSale, setCurrentSale] = useState([])
@@ -45,8 +45,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <div id="teste"> </div> */}
-        <MenuContainer userinput={userinput} setUserinput={setUserinput} products={products} handleClick={handleClick} showProducts={showProducts}/>
-        <CardProducts currentSale={currentSale} setCurrentSale={setCurrentSale} remove={remove} totalPrice={totalPrice}/>
+        <MenuContainer currentSale={currentSale} setCurrentSale={setCurrentSale} remove={remove} totalPrice={totalPrice} userinput={userinput} setUserinput={setUserinput} products={products} handleClick={handleClick} showProducts={showProducts}/>
+        {/* <CardProducts currentSale={currentSale} setCurrentSale={setCurrentSale} remove={remove} totalPrice={totalPrice}/> */}
       </header>
     </div>
   );

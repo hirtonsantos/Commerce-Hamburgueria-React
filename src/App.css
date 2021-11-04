@@ -1,8 +1,10 @@
 
 .App-header {
     width: 100%;
+    height: 1200px;
 }
 
 body, h1, h3, p {
     margin: 0px;
 }
+

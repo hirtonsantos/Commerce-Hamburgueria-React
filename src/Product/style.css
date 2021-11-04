@@ -102,9 +102,9 @@ img {
         width: 837px;
     }
     .carrinho{
-        position: absolute;
-        left: 760px;
-        bottom: 100px;
+        /* position: absolute; */
+        /* left: 760px; */
+        /* bottom: 100px; */
         width: 420px;    
     }
     .pesquisa{
@@ -117,5 +117,10 @@ img {
     }
     .barra-de-pesquisa{
         width: 377px;
+    }
+    .mae{
+        width: 100%;
+        DISPLAY: FLEX;
+        FLEX-DIRECTION: row;
     }
 }
