@@ -44,6 +44,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* <div id="teste"> </div> */}
         <MenuContainer userinput={userinput} setUserinput={setUserinput} products={products} handleClick={handleClick} showProducts={showProducts}/>
         <CardProducts currentSale={currentSale} setCurrentSale={setCurrentSale} remove={remove} totalPrice={totalPrice}/>
       </header>

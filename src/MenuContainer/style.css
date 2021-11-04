@@ -1,8 +1,6 @@
- 
+
 .pesquisa {
-    /* position: absolute; */
-    max-width: 768px;
-    min-width: 360px;
+
     height: 139px;
     left: 0px;
     top: 0px;
@@ -18,10 +16,6 @@ h3 {
     color: red;
 }
 
-/* p {
-    text-align: center;
-} */
-
 .title {
     display: flex;
     flex-direction: row;
@@ -32,38 +26,25 @@ h3 {
 
 .barra-de-pesquisa {
     display: flex;
+    padding: 10px;
+    align-items: center;
     justify-content: center;
 }
 
-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    margin: 0px;
+#button-buscar{
+    position: absolute;
+    margin-left: 280px;
+}
 
-    position: static;
+button {
     width: 107px;
     height: 40px;
-    left: 225px;
-    top: 75px;
 
     background: #27AE60;
 
     border: 2px solid #27AE60;
     box-sizing: border-box;
     border-radius: 8px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    /* margin: 0px 115px; */
-}
-
-
-#button-buscar {
-    position: absolute;
 }
 
 input {
@@ -73,10 +54,9 @@ input {
     align-items: center;
     padding: 0px 10px 0px 15px;
 
-    position: absolute;
-    min-width: 325px;
     max-width: 400px;
     height: 60px;
+    width: 100%;
     left: 16px;
     top: 65px;
 
@@ -94,6 +74,33 @@ section {
     display: flex;
 }
 
-/* .mae-button {
-    display: flex;
-} */
+@media screen and (min-width: 800px) {
+    .product-card{
+        width: 204px;
+    }   
+    img {
+        width: 200px;
+    }
+    section{
+        overflow: visible;
+        flex-wrap: wrap;
+        width: 837px;
+    }
+    .carrinho{
+        position: absolute;
+        left: 760px;
+        bottom: 100px;
+        width: 420px;    
+    }
+    .pesquisa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #button-buscar{
+        margin-left: 240px;
+    }
+    .barra-de-pesquisa{
+        width: 377px;
+    }
+}

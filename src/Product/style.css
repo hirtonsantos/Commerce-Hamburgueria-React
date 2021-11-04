@@ -7,9 +7,10 @@
     background-color: aqua;
     margin-right: 25px;
     margin-top: 25px;
+
     align-items: flex-start;
 
-    width: 300px;
+    width: 254px;
     left: 16px;
     top: 154px;
 
@@ -79,10 +80,42 @@ p, button {
 
 img {
     /* position: absolute; */
-    width: 230px;
+    width: 230px; 
+    /* width: 250px; */
     background-color: #F5F5F5;
     height: 210px;
     left: 68px;
     top: 139px;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .product-card{
+        width: 204px;
+    }   
+    img {
+        width: 200px;
+    }
+    section{
+        overflow: visible;
+        flex-wrap: wrap;
+        width: 837px;
+    }
+    .carrinho{
+        position: absolute;
+        left: 760px;
+        bottom: 100px;
+        width: 420px;    
+    }
+    .pesquisa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #button-buscar{
+        margin-left: 240px;
+    }
+    .barra-de-pesquisa{
+        width: 377px;
+    }
 }
