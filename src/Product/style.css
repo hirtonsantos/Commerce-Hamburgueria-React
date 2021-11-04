@@ -99,7 +99,7 @@ img {
     section{
         overflow: visible;
         flex-wrap: wrap;
-        width: 837px;
+        /* width: 837px; */
     }
     .carrinho{
         /* position: absolute; */

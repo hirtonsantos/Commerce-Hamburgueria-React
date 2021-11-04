@@ -187,7 +187,7 @@ span button {
     section{
         overflow: visible;
         flex-wrap: wrap;
-        width: 837px;
+        /* width: 837px; */
     }
 
     .span-inferior, span, .header-carrinho{
