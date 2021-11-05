@@ -8,3 +8,7 @@ body, h1, h3, p {
     margin: 0px;
 }
 
+body {
+    width: 100vw;
+}
+

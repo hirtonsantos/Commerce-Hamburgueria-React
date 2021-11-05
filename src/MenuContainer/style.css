@@ -1,6 +1,5 @@
 
 .pesquisa {
-
     height: 139px;
     left: 0px;
     top: 0px;
@@ -33,7 +32,8 @@ h3 {
 
 #button-buscar{
     position: absolute;
-    margin-left: 220px;
+    /* margin-left: 220px; */
+    margin-left: 110px;
 }
 
 button {
@@ -56,7 +56,7 @@ input {
 
     max-width: 400px;
     height: 60px;
-    width: 100%;
+    width: 80vw;
     left: 16px;
     top: 65px;
 
@@ -77,6 +77,18 @@ section {
 .mae{
     width: 100%;
     display: unset;
+}
+
+@media screen and (min-width: 375px) {
+    #button-buscar{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #button-buscar{
+        margin-left: 210px;
+    }
 }
 
 @media screen and (min-width: 799px) {
