@@ -216,6 +216,11 @@ span button {
     .barra-de-pesquisa{
         width: 377px;
     }
+
+    .informations-products{
+        width:120px;
+    }
+
     .mae{
         width: 100%;
         DISPLAY: FLEX;
