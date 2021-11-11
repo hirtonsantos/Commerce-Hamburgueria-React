@@ -3,13 +3,12 @@ import "./style.css"
 
 function CardProducts ({currentSale, setCurrentSale, remove, totalPrice}) {
 
-    console.log(currentSale.length === 0)
-
     function removeItem (itemRemove){
         setCurrentSale(currentSale.filter((item) => {
           return item.id!==itemRemove
         }))
     }
+
 
     return currentSale.length !== 0 ? (
         <div className="carrinho">

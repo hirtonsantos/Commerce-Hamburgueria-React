@@ -1,8 +1,10 @@
 import "./style.css"
+import { useState } from "react"
 import Product from "../Product"
 import CardProducts from "../CardProducts/Index"
 
-function MenuContainer ({currentSale,setCurrentSale,remove,totalPrice, products, handleClick, showProducts , setUserinput, userinput}){
+function MenuContainer ({currentSale, setProducts,setCurrentSale,remove,totalPrice, products, handleClick, showProducts , setUserinput, userinput}){
+
     return (
         <div>
         <header className="pesquisa">
@@ -17,7 +19,7 @@ function MenuContainer ({currentSale,setCurrentSale,remove,totalPrice, products,
                 value={userinput}
                 onChange={(event) => setUserinput(event.target.value)}
                 />
-                <button onClick={showProducts} id="button-buscar"> Buscar </button>
+                <button onClick={() => showProducts(userinput)} id="button-buscar"> Buscar </button>
             </div>
         </header>
         <section className="mae">  

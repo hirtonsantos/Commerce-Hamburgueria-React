@@ -80,6 +80,8 @@ span button {
     line-height: 19px;
 
     color: #828282;
+
+    cursor: pointer;
 }
 
 .category-span {
@@ -161,6 +163,7 @@ span button {
     color: #BDBDBD;
     align-items: flex-start;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .informations-products{
