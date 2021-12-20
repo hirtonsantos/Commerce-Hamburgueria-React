@@ -8,11 +8,11 @@ Basically we will have a list of products and we will simulate a shopping cart w
 
 # technologies
 
-Styled-components
-Components
-CSS3
-Vercel
-ReactJs
+Styled-components;
+Components;
+CSS3;
+Vercel;
+ReactJs;
 
 # Link
 
