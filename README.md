@@ -6,7 +6,7 @@ Simple Website to simulate a commerce
 
 Basically we will have a list of products and we will simulate a shopping cart with react.
 
-# technologies
+# Technologies:
 
 Styled-components  
 Components  
@@ -14,6 +14,6 @@ CSS3
 Vercel  
 ReactJs  
 
-# Link
+# Link:
 
 https://react-entrega-s1-hamburgueria-da-kenzie-hirtonsantos.vercel.app/
